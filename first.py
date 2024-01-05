@@ -1,13 +1,13 @@
 # # 使用Unicode字符直接表示字符串  
-# s = '你好，世界！'  
-# print(s)  
+s = '你好，世界！'  
+print(s)  
   
 # # 使用转义序列表示Unicode字符  
-# s = 'Hello,\u0041\u0042\u0043\u0044\u0045 world!'  
-# print(s) # 输出：Hello,ABCD world! 
+s = 'Hello,\u0041\u0042\u0043\u0044\u0045 world!'  
+print(s) # 输出：Hello,ABCD world! 
 
 # # 使用Unicode编码表示希腊字母表  
-# print('\u0391\u0392\u0393\u0394\u0395\u0396\u0397\u0398\u0399\u039a\u039b\u039c\u039d\u039e\u039f\u03a0\u03a1\u03a3\u03a4\u03a5\u03a6\u03a7\u03a8\u03a9') # 输出：ABCDEFGHIJKLMNOPQRSTUVWXYZ
+print('\u0391\u0392\u0393\u0394\u0395\u0396\u0397\u0398\u0399\u039a\u039b\u039c\u039d\u039e\u039f\u03a0\u03a1\u03a3\u03a4\u03a5\u03a6\u03a7\u03a8\u03a9') # 输出：ABCDEFGHIJKLMNOPQRSTUVWXYZ
 
 
 import sys
